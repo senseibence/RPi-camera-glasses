@@ -24,6 +24,8 @@ def take_picture():
 
 # POST request
 def send_picture():
+
+    # Waiting for image upload to become a feature
     completion = openai.ChatCompletion.create(
         model="gpt-4",
         messages=[
@@ -33,9 +35,15 @@ def send_picture():
 
     return completion.choices[0].message['content']
 
-# Main loop, try/except needed to avoid errors
 while True:
-    if button.is_pressed:
+    try:
+        button.wait_for_press()
         image = take_picture()
         response = send_picture(image)
-        sleep(10)  # avoid multiple captures for a single press
+
+        # bad way to avoid multiple captures for a single press
+        sleep(10)  
+    except KeyboardInterrupt:
+        break
+    finally:
+        break
