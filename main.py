@@ -18,14 +18,17 @@ button = Button(25) # GPIO25
 def take_picture():
     camera.start()
     sleep(3)
-    image = camera.capture_image()
-    camera.stop() # unsure if this is correct syntax, need to check
+
+    image = camera.capture_image() # returns a PIL image
+    # camera.capture_file('image.jpg') --> can open file in binary and send to OpenAI, if easier
+
+    camera.stop() # could be camera.close(), I have no idea
     return image
 
 # POST request
 def send_picture():
 
-    # Waiting for image upload to become a feature
+    # Waiting for image upload feature
     completion = openai.ChatCompletion.create(
         model="gpt-4",
         messages=[
@@ -40,10 +43,10 @@ while True:
         button.wait_for_press()
         image = take_picture()
         response = send_picture(image)
-
-        # bad way to avoid multiple captures for a single press
-        sleep(10)  
+        print(response)
+        sleep(10) # rudimentary way to avoid multiple captures for a single press
     except KeyboardInterrupt:
-        break
+        pass
     finally:
+        camera.stop()
         break
