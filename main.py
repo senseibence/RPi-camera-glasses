@@ -22,11 +22,11 @@ def take_picture():
     image = camera.capture_image() # returns a PIL image
     # camera.capture_file('image.jpg') --> can open file in binary and send to OpenAI, if easier
 
-    camera.stop() # could be camera.close(), I have no idea
+    camera.stop()
     return image
 
 # POST request
-def send_picture():
+def send_picture(image):
 
     # Waiting for image upload feature
     completion = openai.ChatCompletion.create(
@@ -43,10 +43,7 @@ while True:
         button.wait_for_press()
         image = take_picture()
         response = send_picture(image)
-        print(response)
-        sleep(10) # rudimentary way to avoid multiple captures for a single press
-    except KeyboardInterrupt:
-        pass
-    finally:
+        print(response) # can email the response, play it through a speaker, etc.
+    except:
         camera.stop()
         break
