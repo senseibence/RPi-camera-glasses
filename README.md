@@ -1,7 +1,12 @@
-# RPi-camera-glasses
+# RPi-camera-glasses 
 This project was prompted by GPT-4's visual input feature, which allows image upload and analysis: https://openai.com/product/gpt-4. Since that feature has not been released as of 7/18/2023, I will be using a custom Google Bard API by Daniel Park: https://github.com/dsdanielpark/Bard-API. I will be attaching a Raspberry Pi camera module onto my glasses, capturing images upon pressing a button wired to the Pi, and sending those images to https://bard.google.com/.
 
 Be mindful that Google may rate limit you if you make excessive requests to the website. 
+
+# Future Changes
+* Implement a USB microphone to create custom prompts for each image (input and output audio together is not simple with Raspberry Pi)
+* Implement a more stable API (this will require Google or OpenAI to add image analysis with LLMs to their APIs)
+* Make camera glasses more compact and useable in real-world scenarios
 
 # Materials
 * Raspberry Pi 4 Model B
