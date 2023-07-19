@@ -1,7 +1,7 @@
 # RPi-camera-glasses
-This project was prompted by GPT-4's visual input feature, which allows image upload and analysis: https://openai.com/product/gpt-4. I will be attaching a Raspberry Pi camera module onto my glasses, capturing images with a button wired to the Pi, and sending those images via an API request to the GPT-4 model (once that feature is available).
+This project was prompted by GPT-4's visual input feature, which allows image upload and analysis: https://openai.com/product/gpt-4. Since that feature has not been released as of 7/18/2023, I will be using a custom Google Bard API by Daniel Park: https://github.com/dsdanielpark/Bard-API. I will be attaching a Raspberry Pi camera module onto my glasses, capturing images upon pressing a button wired to the Pi, and sending those images to https://bard.google.com/.
 
-Custom Bard API on GitHub: https://github.com/dsdanielpark/Bard-API. Will try to use this instead.
+Be mindful that Google may rate limit you if you make excessive requests to the website. 
 
 # Materials
 * Raspberry Pi 4 Model B
@@ -15,13 +15,18 @@ Custom Bard API on GitHub: https://github.com/dsdanielpark/Bard-API. Will try to
 * Soldering iron (depending on type of push button)
 
 # Installation
-1. Assemble the hardware. The camera extension cable should be wired to the camera module, the camera module should be attached to the Pi's CSI port, and the push button should be wired to any GPIO pin and ground.
+1. Assemble the hardware. The camera extension cable should be wired from camera to camera module, the camera module should be attached to the Pi's CSI port, and the push button should be wired to any GPIO pin and ground.
 2. Install the recommended Raspberry Pi OS on a microSD card: https://www.raspberrypi.com/software/
 3. Boot up Raspberry Pi and open a CLI
 4. Clone repository: ```git clone https://github.com/senseibence/RPi-camera-glasses.git```
 5. Change directory: ```cd RPi-camera-glasses```
-6. Install packages: all packages used except for 1 (openai) are included in the recommended Raspberry Pi OS (Bullseye). If you still wish to install them manually, run ```pip install -r requirements.txt```. Otherwise, run ```pip install openai``` to install the OpenAI API package. Using a virtual environment is recommended.
-7. Set the value of ```OpenAI_API_Key``` in ```keys.json``` with your own API key. You can create one here: https://platform.openai.com/account/api-keys
+6. Install packages: 
+* All packages except for 3 (openai (unused), bardapi, and gTTS) are included in the recommended Raspberry Pi OS (Bullseye). If you still wish to install them manually, run ```pip install -r requirements.txt```. Otherwise, install just the 2 used packages (bardapi and gTTS). Using a virtual environment is recommended; however, I encountered issues with installing ```picamera2``` because of ```PyQt5```
+* Run ```sudo apt install mpg123``` to install an MP3 player onto your system
+7. Set the value of ```Bard_Cookie_Value``` in ```keys.json```: 
+* Go to https://bard.google.com/ 
+* F12 for developer console 
+* Application → Cookies → Copy the value of ```__Secure-1PSID``` cookie.
 8. Run ```python main.py``` to start the program
 
 # Images
