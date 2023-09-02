@@ -6,7 +6,9 @@ Be mindful that Google may rate limit you if you make excessive requests to the 
 # Results
 ![image](https://cdn.discordapp.com/attachments/953870034227302470/1147374020279406592/wheelbarrow.jpg)
 ![image](https://cdn.discordapp.com/attachments/953870034227302470/1147372294117793906/bardgen4.png)
-### Bard's description is almost perfect, with the only error being the "T" misidentified as "Y"
+### Bard's description is almost perfect, the only error being the "T" misidentified as "Y"
+
+<br><br>
 
 ![image](https://cdn.discordapp.com/attachments/953870034227302470/1147374000545210448/bottle.jpg)
 ![image](https://cdn.discordapp.com/attachments/953870034227302470/1147372255194652692/bardgen3.png)
@@ -46,12 +48,15 @@ Be mindful that Google may rate limit you if you make excessive requests to the 
 # Hardware Images
 ![image](https://cdn.discordapp.com/attachments/953870034227302470/1110371329825321102/IMG_1627.jpg)
 Rough diagram of the project
+<br><br>
 
 ![image](https://cdn.discordapp.com/attachments/953870034227302470/1110371318123208866/IMG_1615.jpg)
 Raspberry Pi 4 Model B before hardware installations
+<br><br>
 
 ![image](https://cdn.discordapp.com/attachments/953870034227302470/1110371329187774556/IMG_1625.jpg)
 Raspberry Pi 4 Model B after hardware installations
+<br><br>
 
 ![image](https://cdn.discordapp.com/attachments/991028278473134191/1126618381156626432/IMG-1741.jpg)
 Glasses with camera and module
