@@ -3,6 +3,13 @@ This project was prompted by GPT-4's visual input feature, which allows image up
 
 Be mindful that Google may rate limit you if you make excessive requests to the website. 
 
+# Results
+![image](https://cdn.discordapp.com/attachments/953870034227302470/1147374000545210448/bottle.jpg)
+![image](https://cdn.discordapp.com/attachments/953870034227302470/1147372255194652692/bardgen3.png)
+![image](https://cdn.discordapp.com/attachments/953870034227302470/1147374020279406592/wheelbarrow.jpg)
+![image](https://cdn.discordapp.com/attachments/953870034227302470/1147372294117793906/bardgen4.png)
+
+
 # Future Changes
 * Implement a USB microphone to create custom prompts for each image (input and output audio together is not simple with Raspberry Pi)
 * Implement a more stable API (this will require Google or OpenAI to add image analysis with LLMs to their APIs)
@@ -34,7 +41,7 @@ Be mindful that Google may rate limit you if you make excessive requests to the 
 * Application → Cookies → Copy the value of ```__Secure-1PSID``` cookie.
 8. Run ```python main.py``` to start the program
 
-# Images
+# Hardware Images
 ![image](https://cdn.discordapp.com/attachments/953870034227302470/1110371329825321102/IMG_1627.jpg)
 Rough diagram of the project
 
