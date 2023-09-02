@@ -12,7 +12,7 @@ Be mindful that Google may rate limit you if you make excessive requests to the 
 
 ![image](https://cdn.discordapp.com/attachments/953870034227302470/1147374000545210448/bottle.jpg)
 ![image](https://cdn.discordapp.com/attachments/953870034227302470/1147372255194652692/bardgen3.png)
-### Bard's description is mostly correct, including correctly identifying the majority of the text present. Color assessment is innacurate
+### Bard's description is mostly correct, including correctly identifying the majority of the text present. Color assessment is inaccurate
 
 # Future Changes
 * Implement a USB microphone to create custom prompts for each image (input and output audio together is not simple with Raspberry Pi)
