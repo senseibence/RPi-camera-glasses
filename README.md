@@ -4,14 +4,14 @@ This project was prompted by GPT-4's visual input feature, which allows image up
 Be mindful that Google may rate limit you if you make excessive requests to the website. 
 
 # Results
-![image](https://cdn.discordapp.com/attachments/953870034227302470/1147374020279406592/wheelbarrow.jpg)
-![image](https://cdn.discordapp.com/attachments/953870034227302470/1147372294117793906/bardgen4.png)
+![image](https://cdn.discordapp.com/attachments/953870034227302470/1147374020279406592/wheelbarrow.jpg?ex=65fe4dd3&is=65ebd8d3&hm=1f3be077af9f27baebbd1b6e02314b9ec0baad7d15cf814e958e57128792cb14&)
+![image](https://cdn.discordapp.com/attachments/953870034227302470/1147372294117793906/bardgen4.png?ex=65fe4c38&is=65ebd738&hm=44902fa1f1572426bea1511efc9ea3a85e6ffe54c33b450fa83bd85391c14fcf&)
 ### Bard's description is almost perfect, the only error being the "T" misidentified as "Y"
 
 <br><br>
 
-![image](https://cdn.discordapp.com/attachments/953870034227302470/1147374000545210448/bottle.jpg)
-![image](https://cdn.discordapp.com/attachments/953870034227302470/1147372255194652692/bardgen3.png)
+![image](https://cdn.discordapp.com/attachments/953870034227302470/1147374000545210448/bottle.jpg?ex=65fe4dce&is=65ebd8ce&hm=d3f1738ec0e22aafa5ba770fc471e3272559b658b39ef0acc1f2578d85e31314&)
+![image](https://cdn.discordapp.com/attachments/953870034227302470/1147372255194652692/bardgen3.png?ex=65fe4c2e&is=65ebd72e&hm=6eec3bcd38c1cdb00666fdb377b90ab6e5d9010015d31b76cbc061acdced0ec5&)
 ### Bard's description is mostly correct, including correctly identifying the majority of the text present. Color assessment is inaccurate
 
 # Future Changes
