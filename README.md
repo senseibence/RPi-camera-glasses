@@ -46,17 +46,17 @@ Be mindful that Google may rate limit you if you make excessive requests to the 
 8. Run ```python main.py``` to start the program
 
 # Hardware Images
-![image](https://cdn.discordapp.com/attachments/953870034227302470/1110371329825321102/IMG_1627.jpg)
+![image](https://cdn.discordapp.com/attachments/953870034227302470/1110371329825321102/IMG_1627.jpg?ex=66021de2&is=65efa8e2&hm=84dd947d3a644e41e121fd10cf61a33cb8f0870f16a07872d5efa5639d1b4d61&)
 Rough diagram of the project
 <br><br>
 
-![image](https://cdn.discordapp.com/attachments/953870034227302470/1110371318123208866/IMG_1615.jpg)
+![image](https://cdn.discordapp.com/attachments/953870034227302470/1110371318123208866/IMG_1615.jpg?ex=66021ddf&is=65efa8df&hm=abf1abe9b48fbdaafa54c3610136b1eb923ecea0dfea4d5c38b1727b13a973ea&)
 Raspberry Pi 4 Model B before hardware installations
 <br><br>
 
-![image](https://cdn.discordapp.com/attachments/953870034227302470/1110371329187774556/IMG_1625.jpg)
+![image](https://cdn.discordapp.com/attachments/953870034227302470/1110371329187774556/IMG_1625.jpg?ex=66021de2&is=65efa8e2&hm=db76ee03dd584c7bcf41d48474d2bf82977db1188f7488d1cb0f202437b790e1&)
 Raspberry Pi 4 Model B after hardware installations
 <br><br>
 
-![image](https://cdn.discordapp.com/attachments/991028278473134191/1126618381156626432/IMG-1741.jpg)
+![image](https://cdn.discordapp.com/attachments/953870034227302470/1217938278238519386/image0.jpg?ex=6605d869&is=65f36369&hm=fc37743de3ec92f323a3e10b4af753f2579c93ef62390859a476879e19355bbd&)
 Glasses with camera and module
