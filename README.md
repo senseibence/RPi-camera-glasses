@@ -5,13 +5,13 @@ Be mindful that Google may rate limit you if you make excessive requests to the 
 
 # Results
 ![image](wheelbarrow.jpg)
-![image](wheelbarrowanalysis.jpg)
+![image](wheelbarrowanalysis.png)
 ### Bard's description is almost perfect, the only error being the "T" misidentified as "Y"
 
 <br><br>
 
 ![image](bottle.jpg)
-![image](bottleanalysis.jpg)
+![image](bottleanalysis.png)
 ### Bard's description is mostly correct, including correctly identifying the majority of the text present. Color assessment is inaccurate
 
 # Future Changes
