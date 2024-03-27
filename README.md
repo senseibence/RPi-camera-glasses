@@ -4,14 +4,14 @@ This project was prompted by GPT-4's visual input feature, which allows image up
 Be mindful that Google may rate limit you if you make excessive requests to the website. 
 
 # Results
-![image](https://cdn.discordapp.com/attachments/953870034227302470/1147374020279406592/wheelbarrow.jpg?ex=65fe4dd3&is=65ebd8d3&hm=1f3be077af9f27baebbd1b6e02314b9ec0baad7d15cf814e958e57128792cb14&)
-![image](https://cdn.discordapp.com/attachments/953870034227302470/1147372294117793906/bardgen4.png?ex=65fe4c38&is=65ebd738&hm=44902fa1f1572426bea1511efc9ea3a85e6ffe54c33b450fa83bd85391c14fcf&)
+![image](wheelbarrow.jpg)
+![image](wheelbarrowanalysis.jpg)
 ### Bard's description is almost perfect, the only error being the "T" misidentified as "Y"
 
 <br><br>
 
-![image](https://cdn.discordapp.com/attachments/953870034227302470/1147374000545210448/bottle.jpg?ex=65fe4dce&is=65ebd8ce&hm=d3f1738ec0e22aafa5ba770fc471e3272559b658b39ef0acc1f2578d85e31314&)
-![image](https://cdn.discordapp.com/attachments/953870034227302470/1147372255194652692/bardgen3.png?ex=65fe4c2e&is=65ebd72e&hm=6eec3bcd38c1cdb00666fdb377b90ab6e5d9010015d31b76cbc061acdced0ec5&)
+![image](bottle.jpg)
+![image](bottleanalysis.jpg)
 ### Bard's description is mostly correct, including correctly identifying the majority of the text present. Color assessment is inaccurate
 
 # Future Changes
@@ -46,17 +46,17 @@ Be mindful that Google may rate limit you if you make excessive requests to the 
 8. Run ```python main.py``` to start the program
 
 # Hardware Images
-![image](https://cdn.discordapp.com/attachments/953870034227302470/1110371329825321102/IMG_1627.jpg?ex=66021de2&is=65efa8e2&hm=84dd947d3a644e41e121fd10cf61a33cb8f0870f16a07872d5efa5639d1b4d61&)
+![image](glasseswithcameramodulesketch.jpg)
 Rough diagram of the project
 <br><br>
 
-![image](https://cdn.discordapp.com/attachments/953870034227302470/1110371318123208866/IMG_1615.jpg?ex=66021ddf&is=65efa8df&hm=abf1abe9b48fbdaafa54c3610136b1eb923ecea0dfea4d5c38b1727b13a973ea&)
+![image](raspberrypi4withoutcase.jpg)
 Raspberry Pi 4 Model B before hardware installations
 <br><br>
 
-![image](https://cdn.discordapp.com/attachments/953870034227302470/1110371329187774556/IMG_1625.jpg?ex=66021de2&is=65efa8e2&hm=db76ee03dd584c7bcf41d48474d2bf82977db1188f7488d1cb0f202437b790e1&)
+![image](raspberrypi4withcase.jpg)
 Raspberry Pi 4 Model B after hardware installations
 <br><br>
 
-![image](https://cdn.discordapp.com/attachments/953870034227302470/1217938278238519386/image0.jpg?ex=6605d869&is=65f36369&hm=fc37743de3ec92f323a3e10b4af753f2579c93ef62390859a476879e19355bbd&)
+![image](glasseswithcameramodule.jpg)
 Glasses with camera and module
